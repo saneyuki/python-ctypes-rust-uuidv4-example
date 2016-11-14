@@ -3,4 +3,8 @@ name = "python-ctypes-rust-uuidv4-example"
 version = "0.1.0"
 authors = ["Tetsuharu OHZEKI <saneyuki.snyk@gmail.com>"]
 
+[lib]
+name = "ffi_uuidv4"
+crate-type = ["dylib"]
+
 [dependencies]
