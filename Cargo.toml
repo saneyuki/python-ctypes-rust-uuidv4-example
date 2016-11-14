@@ -8,3 +8,4 @@ name = "ffi_uuidv4"
 crate-type = ["dylib"]
 
 [dependencies]
+uuid = { version = "*", features = ["v4"] }
